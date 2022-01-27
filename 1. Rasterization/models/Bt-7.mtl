@@ -1,0 +1,148 @@
+# Exported from Wings 3D 2.1.5
+newmtl Cube15_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd auvBG.bmp
+
+newmtl Cube21_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd auvBG.bmp
+
+newmtl Cube25_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cube25_auv.bmp
+
+newmtl Cube25_copy29_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd auvBG.bmp
+
+newmtl Cube25_copy30_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd auvBG.bmp
+
+newmtl Cube4_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cube4_auv.bmp
+
+newmtl Cube5_copy6_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cube5_copy6_auv.bmp
+
+newmtl Cylinder12_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cylinder16_auv.bmp
+
+newmtl Cylinder13_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cylinder16_auv.bmp
+
+newmtl Cylinder14_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cylinder14_auv.bmp
+
+newmtl Cylinder16_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd Cylinder16_auv.bmp
+
+newmtl Cylinder22_auv
+Ns 90.0
+d 1.0
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+map_Kd auvBG.bmp
+
+newmtl black
+Ns 0.0
+d 1.0
+illum 2
+Kd 0.0 0.0 0.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+
+newmtl grey
+Ns 0.0
+d 1.0
+illum 2
+Kd 0.5019607843137255 0.5019607843137255 0.5019607843137255
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+
+newmtl white
+Ns 0.0
+d 0.7
+illum 2
+Kd 1.0 1.0 1.0
+Ka 1.0 1.0 1.0
+Ks 0.0 0.0 0.0
+Ke 0.0 0.0 0.0
+
