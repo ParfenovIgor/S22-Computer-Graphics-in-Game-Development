@@ -102,7 +102,7 @@ namespace cg::renderer
 		size_t vertex_id = vertex_offset;
 		std::cout << "Rendering..." << std::endl;
 		while (vertex_id < vertex_offset + num_vertexes) {
-			std::cout << '\r' << vertex_id << '/' << num_vertexes << " polygons";
+			std::cout << '\r' << vertex_id / 3 << '/' << num_vertexes / 3 << " polygons";
 
 			std::vector<VB> vertices(3);
 			vertices[0] = vertex_buffer->item(index_buffer->item(vertex_id++));
