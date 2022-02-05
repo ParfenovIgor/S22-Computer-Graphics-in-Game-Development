@@ -31,3 +31,8 @@ cmake .. -A x64
 - [Cornell Box models](https://casual-effects.com/g3d/data10/index.html#) by Morgan McGuire (CC BY 3.0 License)
 - [Cube model](https://casual-effects.com/g3d/data10/index.html#) by Morgan McGuire (CC BY 3.0 License)
 - [Dabrovic Sponza](https://casual-effects.com/g3d/data10/index.html#) by Marko Dabrovic (CC BY-NC)
+
+Raytracing took 1560.71ms
+Raytracing took 626.793ms
+Raytracing took 21887.7ms (16 frames 1368 ms per frame)
+Raytracing took 6155.27ms (16 frames 385 ms per frame)
