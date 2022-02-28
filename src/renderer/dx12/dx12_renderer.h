@@ -50,8 +50,11 @@ namespace cg::renderer
 		CD3DX12_RECT scissor_rect;
 
 		// Resources
-		ComPtr<ID3D12Resource> vertex_buffer;
-		D3D12_VERTEX_BUFFER_VIEW vertex_buffer_view;
+		std::vector<ComPtr<ID3D12Resource>> vertex_buffers;
+		std::vector<D3D12_VERTEX_BUFFER_VIEW> vertex_buffer_views;
+
+		std::vector<ComPtr<ID3D12Resource>> index_buffers;
+		std::vector<D3D12_INDEX_BUFFER_VIEW> index_buffer_views;
 
 		DirectX::XMMATRIX world_view_projection;
 		ComPtr<ID3D12Resource> constant_buffer;

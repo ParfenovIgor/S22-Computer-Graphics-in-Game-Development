@@ -78,16 +78,16 @@ LRESULT cg::utils::window::window_proc(HWND hwnd, UINT message, WPARAM wparam, L
 				switch (static_cast<UINT8>(wparam))
 				{
 					case 87:// w
-						renderer->move_forward(10.f);
+						renderer->move_forward(1.f);
 						break;
 					case 83:// s
-						renderer->move_backward(10.f);
+						renderer->move_backward(1.f);
 						break;
 					case 68:// d
-						renderer->move_right(10.f);
+						renderer->move_right(1.f);
 						break;
 					case 65:// a
-						renderer->move_left(10.f);
+						renderer->move_left(1.f);
 						break;
 				}
 			}

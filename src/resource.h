@@ -66,7 +66,7 @@ namespace cg
 	template<typename T>
 	inline size_t resource<T>::get_size_in_bytes() const
 	{
-		return data.size() * stride;
+		return data.size() * item_size;
 	}
 	template<typename T>
 	inline size_t resource<T>::get_number_of_elements() const
