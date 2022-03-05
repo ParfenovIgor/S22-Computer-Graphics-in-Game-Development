@@ -36,6 +36,7 @@ void cg::world::model::load_obj(const std::filesystem::path& model_path)
 
 	// Loop 1
 	// Loop over shapes
+	textures.resize(shapes.size());
 	for (size_t s = 0; s < shapes.size(); s++) {
 		// Loop over faces(polygon)
 		size_t index_offset = 0;
@@ -63,6 +64,9 @@ void cg::world::model::load_obj(const std::filesystem::path& model_path)
 
 		vertex_buffers.push_back(std::make_shared<cg::resource<cg :: vertex>>(vertex_buffer_size));
 		index_buffers.push_back(std::make_shared<cg::resource<unsigned int>>(index_buffer_size));
+		if (!materials[mesh.material_ids[0]].diffuse_texname.empty()) {
+			textures[s] = model_path.parent_path() / materials[mesh.material_ids[0]].diffuse_texname;
+		}
 	}
 	
 	// Loop 2
@@ -176,7 +180,7 @@ cg::world::model::get_index_buffers() const
 std::vector<std::filesystem::path>
 cg::world::model::get_per_shape_texture_files() const
 {
-	THROW_ERROR("Not implemented yet");
+	return textures;
 }
 
 

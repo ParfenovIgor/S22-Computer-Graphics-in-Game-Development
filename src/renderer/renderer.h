@@ -33,6 +33,10 @@ namespace cg::renderer
 
 		std::shared_ptr<cg::world::camera> camera;
 		std::shared_ptr<cg::world::model> model;
+
+		std::chrono::time_point<std::chrono::high_resolution_clock> current_time = 
+			std::chrono::high_resolution_clock::now();
+		float frame_duration = 0.f;
 	};
 
 

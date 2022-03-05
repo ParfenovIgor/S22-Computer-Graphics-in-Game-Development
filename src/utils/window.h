@@ -15,6 +15,11 @@ namespace cg::utils
 			return hwnd;
 		}
 
+		static bool pressed_w;
+		static bool pressed_s;
+		static bool pressed_a;
+		static bool pressed_d;
+
 	protected:
 		static LRESULT CALLBACK window_proc(HWND hwnd, UINT message, WPARAM wparam, LPARAM lparam);
 

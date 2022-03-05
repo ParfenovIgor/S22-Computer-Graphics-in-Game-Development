@@ -57,25 +57,25 @@ std::shared_ptr<renderer> cg::renderer::make_renderer(std::shared_ptr<cg::settin
 void cg::renderer::renderer::move_forward(float delta)
 {
 	camera->set_position(
-			camera->get_position() + camera->get_direction() * delta);
+			camera->get_position() + camera->get_direction() * delta * frame_duration);
 }
 
 void cg::renderer::renderer::move_backward(float delta)
 {
 	camera->set_position(
-			camera->get_position() - camera->get_direction() * delta);
+			camera->get_position() - camera->get_direction() * delta * frame_duration);
 }
 
 void cg::renderer::renderer::move_left(float delta)
 {
 	camera->set_position(
-			camera->get_position() - camera->get_right() * delta);
+			camera->get_position() - camera->get_right() * delta * frame_duration);
 }
 
 void cg::renderer::renderer::move_right(float delta)
 {
 	camera->set_position(
-			camera->get_position() + camera->get_right() * delta);
+			camera->get_position() + camera->get_right() * delta * frame_duration);
 }
 
 void cg::renderer::renderer::move_yaw(float delta)
